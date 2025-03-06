@@ -13,7 +13,7 @@ const {
 let socket;
 
 async function connectWhatsApp() {
-    const auth = await useMultiFileAuthState('session3');
+    const auth = await useMultiFileAuthState('session');
     socket = makeWASocket({
         printQRInTerminal: true,
         browser: ["SHAN_AI_2v", 'safari', "1.0.0"],
